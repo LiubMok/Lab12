@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @AllArgsConstructor
-public class SmartDocument implements decorator.Document {
+public class SmartDocument implements Document {
     public String gcsPath;
 
     @SneakyThrows
